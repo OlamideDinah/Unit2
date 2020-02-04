@@ -1,0 +1,152 @@
+<html>
+  <head>
+</head>
+
+
+
+<body>
+
+
+	<style>
+
+		body {
+			margin:0;
+		}
+
+		/* This is setting up the section in the top left. It is half the height and width of the page, or one quarter. its position is absolute meaning its positioned in relevance to its ancestor, which in this case is the body.*/
+
+		.tl {
+        width:50%;
+        height:50%;
+        position:absolute;
+        top:0;
+        left:0;
+        background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+ 		background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+        opacity: 0.5;
+
+      }
+
+ /* This is changing the opacity and background colour of each section when it is hovered on. */
+
+        .tl:hover:not(.active) {
+
+        background: -webkit-linear-gradient(to right, #ffffff, #e65c00);
+        background: linear-gradient(to right, #ffffff, #e65c00);
+        opacity:1;
+        transition: 2.3s;
+} 
+
+
+/* This is setting up the section in the top left. It is half the height and width of the page, or one quarter. its position is absolute meaning its positioned in relevance to its ancestor, which in this case is the body.*/
+
+      .bl {
+        width:50%;
+        height:50%;
+        position:absolute;
+        left:0;
+        top:50%;
+        background: -webkit-linear-gradient(to right, #800080, #ffc0cb); 
+        background: linear-gradient(to right, #800080, #ffc0cb);
+        opacity: 0.5;
+        overflow:hidden;
+      }
+
+
+
+ /* This is changing the opacity and background colour of each section when it is hovered on. */
+
+      .bl:hover:not(.active) {
+       opacity:1;
+       transition: 2.3s;
+
+  }
+
+
+/* This is setting up the section in the top left. It is half the height and width of the page, or one quarter. its position is absolute meaning its positioned in relevance to its ancestor, which in this case is the body.*/
+
+      .tr {
+        width:50%;
+        height:50%;
+        position:absolute;
+        top:0;
+        right:0;
+        background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); 
+        background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+        opacity: 0.5;
+      }
+
+
+ /* This is changing the opacity and background colour of each section when it is hovered on. */
+
+      .tr:hover:not(.active) {
+    background: -webkit-linear-gradient(to right, #52c234, #061700); 
+    background: linear-gradient(to right, #52c234, #061700);
+    opacity:1;
+    transition: 2.3s;
+
+  }
+/* This is setting up the section in the top left. It is half the height and width of the page, or one quarter. its position is absolute meaning its positioned in relevance to its ancestor, which in this case is the body.*/
+
+      .br {
+        width:50%;
+        height:50%;
+        position:absolute;
+        right:0;
+        top:50%;
+        background: -webkit-linear-gradient(to right, #800080, #ffc0cb); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right,#ffc0cb, #800080 );
+        opacity: 0.5;
+        overflow:hidden;
+
+       }
+
+
+ /* This is changing the opacity and background colour of each section when it is hovered on. */
+
+    .br:hover:not(.active) {
+    opacity:1;
+    transition: 2.3s;
+      }
+
+
+	</style>
+
+
+ <div>
+
+
+<!--  Here I am calling the top left section and writing the text inside of it !-->
+<div class = "tl">
+
+	<p> > Sdg 7 < </p>
+
+</div>	
+
+<!--  Here I am calling the top right section and writing the text inside of it !-->
+
+ <div class = "tr">
+
+			<p> > Sdg 15 < </p>
+		</div>	
+
+<!--  Here I am calling the bottom left section and writing the text inside of it !-->
+		<div class = "bl">
+
+			<p> > The UN SDGS < </p>
+
+		</div>	
+
+<!--  Here I am calling the botom right section and writing the text inside of it !-->
+
+		<div class = "br">
+
+			<p> > Comparison < </p>
+		</div>	
+
+	</div>
+
+
+</body>
+
+</html>
