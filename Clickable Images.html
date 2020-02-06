@@ -1,0 +1,53 @@
+
+<html>
+
+  <head>
+</head>
+
+    <body>
+
+<style>
+/* */
+
+.ucc{ 
+  width:100px; /*Width of the image */
+  height:100px; /*height of the image */
+  border-radius:30px; /* Creates a curved edges effect */
+  position:absolute; /* Positions this exactly where I want it to be according to what values I define */
+  left:46.6%;  /* a weird value, that seems to be closest to the middle*/
+  top:45%; /* The distance of the image from the top of the page */
+}
+
+
+.ucc:hover:not(.active){ /* When hovered*/
+transform:scale(1.25) /*Proportionally scales the image ; makes it appear larger */
+}
+
+h2 {
+  text-align:center; 
+  font-size:40px; 
+}
+
+
+</style>
+
+<p>
+  <h2>
+  Click this Image!
+  </h2>
+  </p>
+
+  <!-- Defining where the user is directed too on click, calling my created css class, and choosing the background
+  image !-->
+
+<a href = "https://www.google.com/"> <img class = "ucc" alt="hi" src="background.jpg">  
+
+</a>
+
+
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,65 @@
+
+<html>
+
+  <head>
+</head>
+
+    <body>
+
+<style>
+/* */
+
+
+ul {
+  list-style-type: none;  /*No dots */
+  margin: 0; /* Right at the top */
+  padding: 0; /*no padding(no margin) */
+  overflow: hidden; /* if it goes off the page it wont show */
+  background: -webkit-linear-gradient(to right, #ff00cc, #333399); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff00cc, #333399); /* the colour when not hoveered on */
+  position:sticky; /*It will always stay on top even when scrolling through the site */
+  top: 0; /* Right at the top */
+  z-index:2; /* Makes it appear infront of other elements */
+  border-radius:30px; /* Circular Navbar */
+  opacity:1;
+  
+}
+
+li {
+  float:left; /* The navbar will "float" from the left meaning it stars from the left*/
+}
+
+li a { /* this represents all the text positioning inside of the navbars*/
+  display: block; /* its a square/rectangle */
+  color: white; /* the text is white*/
+  text-align: center; /* the text is aligned in the center */
+  padding: 14px 90px; /* the space around the text - see css block model for reference*/
+  text-decoration: none; /* no dots before text */
+}
+
+li a:hover:not(.active){
+  background: -webkit-linear-gradient(to right, #41295a, #2f0743); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #41295a, #2f0743);
+  transition:1s;
+
+}
+
+
+  
+
+</style>
+
+
+<ul>
+  <li><a href="#page2">Sustainable Energy</a></li>
+     <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+</ul>
+
+
+</body>
+
+</html>
+
+
